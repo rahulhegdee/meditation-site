@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Parpia Consulting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="service-style.css">
+</head>
+
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+    <br>
+    <div class="container">
+            <div class="row" style="margin-top: 3%">
+                <div class="col-lg">
+                        <figure class="service-img"><img class="img-fluid" src="Services/blur-calm-calm-waters-1056115.jpg">
+                </div>
+                <div class="col-lg">
+                    <h3 class="centered-text green-text">Mind Clearing</h3>
+                    <br>
+                    <p>Clearing is a one-on-one therapeutic approach which involves the premise that we all have withheld communications within us that cause pain and stress in our relationships and problems in our lives.  In a clearing session, the client is given specific processes that help process issues and create more insight, freedom, and ease.  Clearing is excellent for tackling the day-to-day issues we face, using efficient, time-tested techniques of communicating and processing what we have been holding inside.  </p>
+                    </div>
+            </div>
+    </div>
+</body>
+<script>
+    $.get("nav.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>

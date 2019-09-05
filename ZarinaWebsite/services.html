@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Parpia Consulting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="service-style.css">
+</head>
+
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+    <br>
+    <div class="container">
+        <div class="row" style="margin-top: 3%">
+            <div class="col">
+                <h3 class="centered-text green-text">Click any service to learn more</h3>
+                </div>
+        </div>
+        <div class="row" style="margin-top: 3.5%">
+            <div class="col-lg">
+                <a href="mmw.html"><figure class="tint"><img class="img-fluid" src="Services/calm-meditation-mountain-1278952 (1).jpg"></figure></a>
+                <h3 class="centered-text" style="margin-top: 5%"><a href="mmw.html">Meditation and Mindfulness Workshops</a></h3>
+                <p class="centered-text">Zarina offers tailored mindfulness workshops to organizations, which can help participants achieve greater self-awareness, stress reduction, and workplace effectiveness.   </p>
+            </div>
+            <div class="col-lg">
+                <a href="mc.html"><figure class="tint"><img class="img-fluid" src="Services/blur-calm-calm-waters-1056115.jpg"></figure></a>
+                <h3 class="centered-text" style="margin-top: 5%"><a href="mc.html">Mind Clearing</a></h3>
+                <p class="centered-text">Zarina offers one-on-one sessions which support individuals in achieving greater clarity and ability in solving problems in their daily lives.  </p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 3.5%">
+            <div class="col-lg">
+                <a href="ei.html"><figure class="tint"><img class="img-fluid" src="Services/beautiful-cascade-environment-460621.jpg"></figure></a>
+                <h3 class="centered-text" style="margin-top: 5%"><a href="ei.html">Enlightenment Intensives</a></h3>
+                <p class="centered-text">Zarina staffs enlightenment intensive retreats, residential retreats dedicated to helping individuals explore the nature of reality and truth.   </p>
+            </div>
+            <br>
+            <div class="col-lg">
+                <a href="scc.html"><figure class="tint"><img class="img-fluid" src="Services/blue-blur-cement-1438404.jpg"></figure></a>
+                <h3 class="centered-text" style="margin-top: 5%"><a href="scc.html">Strategy Coaching and Consulting</a></h3>
+                <p class="centered-text">Zarina supports individuals and teams in achieving their organizational, strategic, interpersonal, and operational goals.  </p>
+            </div>
+
+        </div>
+        <br>
+
+    </div>
+</body>
+<script>
+    $.get("nav.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>

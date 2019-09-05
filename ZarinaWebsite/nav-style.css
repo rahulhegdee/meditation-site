@@ -1,0 +1,18 @@
+#header {
+    background-color: #f5f5dc !important;
+}
+
+.nav-link:hover {
+    color: #013f01 !important;
+    background-color: beige !important;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #4b5e3e !important;
+    font-size: 25px;
+    top: 10px;
+    right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
