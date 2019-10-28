@@ -1,0 +1,66 @@
+    <div class="container">
+        <div class="row">
+        <div class="col parent">
+            <h2 class="text-background" id="centered-text">Parpia Consulting offers meditation and mindfulness workshops, one-on-one sessions, and strategy consulting work.  Taking a deeper dive into our inner world helps our outer world run more smoothly.  </h2>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl">
+            <img src="natural.jpg" class="img-fluid" width="1440px">
+            </div>
+        </div>
+    </div>
+
+
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgba(7, 56, 0, 0.2);
+
+    color: rgb(251, 255, 234,1);
+
+    background-color: rgb(251, 255, 234,1);
+    color: rgb(20, 62, 117);
+
+
+<div class="row">
+<p class="quote">"Each session feels like a playful but sober co-exploration of my inner landscape, and the dyadic relationship is intimate and precious."
+    - A.S.</p>
+
+</div>
+<br>
+
+
+
+    body{
+        background-image: url(plant1.jpg) !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+background-color: #ebe9e9;
+
+
+
+
+<div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-md-2 text-center">
+                <a href="index.html" class="button">Home</a>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="services.html" class="button">Services</a>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="experience.html" class="button">Experience</a>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="contact.html" class="button">Contact</a>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
