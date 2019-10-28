@@ -1,15 +1,46 @@
 
+Body {
+    background-color: beige !important;
+}
 
 .button {
-    background-color: white;
-    color: green;
-    border: 2px solid #4CAF50; /* Green */
+    text-decoration: none !important;
+    color: #4b5e3e !important;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 .button:hover{
-      background-color: #4CAF50; /* Green */
-   color: white;
+    color: #013f01 !important;
+    text-decoration: none;
   }
+
+
+.first-btn{
+    position: absolute;
+    right: 0px !important;
+}
+
+.mid1-btn{
+    position: absolute;
+    right: 0px;
+}
+
+.mid2-btn{
+    position: absolute;
+    left: 0px;
+}
+
+.last-btn{
+    position: absolute;
+    left: 0px !important;
+}
+
+.plant-img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
 
 .text-background{
     display: inline-block;
@@ -51,4 +82,8 @@
     .dep-text{
         font-size: 31px !important;
     }
+    .button{
+        font-size: 25px !important;
+    }
+    
 }
