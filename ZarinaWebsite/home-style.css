@@ -1,2 +1,54 @@
 
 
+.button {
+    background-color: white;
+    color: green;
+    border: 2px solid #4CAF50; /* Green */
+  }
+
+.button:hover{
+      background-color: #4CAF50; /* Green */
+   color: white;
+  }
+
+.text-background{
+    display: inline-block;
+
+    background-color: rgba(7, 56, 0, 0.2);
+    color: rgb(251, 255, 234,1);
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.centered-text{
+    color: white;
+    font-size: 25px;
+}
+
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+
+}
+
+.quote {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(0, 53, 0);
+}
+
+@media only screen and (min-width: 780px) {
+    .dep-pos{
+        top: 40%
+    }
+    .dep-text{
+        font-size: 31px !important;
+    }
+}
