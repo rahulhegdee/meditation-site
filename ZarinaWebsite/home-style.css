@@ -6,7 +6,7 @@ Body {
 .button {
     text-decoration: none !important;
     color: #4b5e3e !important;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -15,7 +15,12 @@ Body {
     text-decoration: none;
   }
 
+.profound{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 
+}
 .first-btn{
     position: absolute;
     right: 0px !important;
