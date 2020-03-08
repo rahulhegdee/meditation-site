@@ -17,7 +17,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => "{\n  \"personalizations\": [\n    {\n      \"to\": [\n        {\n          \"email\": \"rahulh.hegde@gmail.com\"\n        }\n      ],\n      \"subject\": \"New Contact Form Submission\"\n    }\n  ],\n  \"from\": {\n    \"email\": \"contact@pconsulting.azurewebsites.net\"\n  },\n  \"content\": [\n    {\n      \"type\": \"text/html\",\n      \"value\": \"Name: $name<br><br>Email: $email<br><br>Subject: $subject<br><br>Message:<br>$message\"\n    }\n  ]\n}",
   CURLOPT_HTTPHEADER => array(
-    "authorization: Bearer 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",
+    "authorization: Bearer [API KEY]",
     "cache-control: no-cache",
     "content-type: application/json"
   ),
