@@ -1,2 +1,2 @@
 # meditation-site
-Website that I made for Parpia Consulting.
+Website made for Parpia Consulting.
