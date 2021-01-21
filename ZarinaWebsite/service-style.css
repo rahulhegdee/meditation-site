@@ -2,6 +2,16 @@
     text-align: center;
 }
 
+.big-text{
+    font-size: 18px;
+}
+
+.small-text{
+    font-size: 14px;
+    color: rgb(145, 141, 141);
+    font-style: italic;
+}
+
 .center {
     display: block;
     margin-left: auto;

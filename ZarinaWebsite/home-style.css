@@ -3,12 +3,23 @@ Body {
     background-color: beige !important;
 }
 
+#big-text{
+    font-size: 32px !important;
+}
+
 .button {
     text-decoration: none !important;
     color: #4b5e3e !important;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px !important;
+    /*font-family: 'Times New Roman', Times, serif;*/
   }
+
+#disabled-button {
+    text-decoration: none !important;
+    color: #4b5e3e !important;
+    font-size: 30px !important;
+    cursor: default;
+}
 
 .button:hover{
     color: #013f01 !important;
@@ -18,7 +29,8 @@ Body {
 .profound{
     text-align: center;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .first-btn{
@@ -42,9 +54,19 @@ Body {
 }
 
 .plant-img{
+    display: block;
     position: fixed;
     bottom: 0px;
     right: 0px;
+    max-width: 50%;
+    max-height: 50%;
+    /*height: auto;*/
+}
+
+.img-area{
+    width: auto;
+    text-align: center;
+    padding: 20px;
 }
 
 .text-background{
@@ -80,7 +102,8 @@ Body {
     color: rgb(0, 53, 0);
 }
 
-@media only screen and (min-width: 780px) {
+
+@media only screen and (min-width: 768px){
     .dep-pos{
         top: 40%
     }
@@ -88,7 +111,22 @@ Body {
         font-size: 31px !important;
     }
     .button{
-        font-size: 25px !important;
+        font-size: 35px !important;
     }
-    
+    #disabled-button{
+        font-size: 35px !important;
+    }
+}
+
+@media (max-height: 800px) {
+    .plant-img {
+      /*display: none !important;*/
+      max-height: 43% !important;
+    }
+}
+
+@media (max-height: 600px) {
+    .plant-img {
+      display: none !important;
+    }
 }

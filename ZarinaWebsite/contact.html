@@ -88,6 +88,8 @@
                             <input class="btn btn-primary" type ="submit">
                          </div>
                          <div class="status"></div>
+
+                         <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
              
                          </form>
                          
@@ -106,3 +108,13 @@ $.get("nav.html", function(data){
 
 </script>
 <script type="text/javascript" src="contactscript.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=[KEY]"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('[KEY]', {action: 'contact'}).then(function(token) {
+        var recaptchaResponse = document.getElementById('recaptchaResponse');
+        recaptchaResponse.value = token;
+    });
+});
+</script>
+

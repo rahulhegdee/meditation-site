@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Parpia Consulting</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+    <div class="container">
+                 <!--Section heading-->
+                 <h2 class="h1-responsive greyish-text font-weight-bold text-center my-4">Error!</h2>
+                 <!--Section description-->
+                 <p class="text-center greyish-text w-responsive mx-auto mb-5">Unfortunately, an error occured when trying to submit your response. Please try again!</p>
+    </div>
+</body>
+<script>
+$.get("nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+
+</script>
